@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../presskit/images/header3.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -304,6 +304,27 @@ a:focus {
     }
 }
 
+
+.video-player {
+  position: relative;
+  margin-top: 5%;
+  
+  
+  
+  
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.video-player__frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10%;    
+
+  width: 80%;
+  height: 100%;
+}
+
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -414,7 +435,8 @@ h2 {
 }
 
 .johann {
-    margin-top: -40%; /*esto es la posicion de la imagen de la campa;a de indiegogo*/
+    margin-top: -55%;
+    margin-left: -20%; /*esto es la posicion de la imagen de la campa;a de indiegogo*/
 }
 
 .email {
