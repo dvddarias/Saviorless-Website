@@ -254,6 +254,11 @@ a:hover {
   outline: none;
 }
 
+.item__details {
+  background-color: aliceblue;
+  padding: 1px 20px 20px 20px;
+}
+
 /* ---------------------------------------------------------- *\
  * Nav - Hamburger.
 \* ---------------------------------------------------------- */
@@ -421,7 +426,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .logo {
-    max-width: 49%;
+    max-width: 23%;
   }
 }
 
